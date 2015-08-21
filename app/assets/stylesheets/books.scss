@@ -1,3 +1,31 @@
-// Place all the styles related to the Books controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#container {
+	margin: 0 auto;
+	width: 60%;
+	font-family: Helvetica, Verdana, sans-serif; 
+
+	.book-item {
+		border-radius: 14px;
+	}
+}
+
+.float-left {
+	color: #fff;
+	float: left;
+	margin-left: 22px;
+	margin-right: 15px;
+
+	img {
+		margin-left: -10px;
+	}
+
+	h4 {
+		margin-top: 0;
+		margin-bottom:0;
+	}
+}
+
+.book-item {
+	overflow: hidden;
+	padding: 15px;
+	background-color: #1A3F6B;
+}
